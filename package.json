@@ -1,0 +1,31 @@
+{
+  "name": "@nhz.io/autoindex",
+  "version": "1.0.0",
+  "description": "Autoindex directory (require) with custom loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "prepublish": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhz-io/autoindex.git"
+  },
+  "keywords": [
+    "autoindex",
+    "nhz.io"
+  ],
+  "author": "Ishi Ruy <dev@nhz.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhz-io/autoindex/issues"
+  },
+  "homepage": "https://github.com/nhz-io/autoindex",
+  "dependencies": {
+    "camelcase": "^3.0.0",
+    "glob": "^7.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
